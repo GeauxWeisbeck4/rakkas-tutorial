@@ -19,11 +19,14 @@
 .mainHone {
     font-size: 2.5rem;
     color: #9608e2;
-    padding-top: 3rem;
+    padding-top: 2rem;
     align-items: center;
 }
 
 .mainCard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: #041150 solid 5px;
     border-radius: 10px;
     padding: 10px;
@@ -36,14 +39,23 @@
 }
 
 .mainList p {
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 
 .newHtwo {
     font-size: 1.5rem;
     color: #041150;
     font-weight: bold;
-    padding-top: 0.5rem;
+    border-bottom: #041150 solid 5px;
+    padding-bottom: 30px;
+}
+
+.familyPic {
+    width: 75%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 5px 12px;
 }
 
 .updateSection {

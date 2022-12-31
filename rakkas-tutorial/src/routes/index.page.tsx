@@ -21,9 +21,9 @@ const HomePage: Page = function HomePage() {
                     <li>Take a shower</li>
                 </ul>
             </div>
-
-            <p>Why couldn't I just put all those on the ToDo list? Well because I need to make content and figure out how this whole framework works - you feel me?
-            I can't just try to think of stuff to put here or I'll never reach 1,000 commits.</p>
+            <h2>Images from the last year - foreshadowing?</h2>
+            <img src="https://res.cloudinary.com/tar-heel-dev-studio/image/upload/v1671812077/svelte_rnxopq.png" alt="svelete"  />
+            <img src="https://res.cloudinary.com/tar-heel-dev-studio/image/upload/v1670855326/fampic_qh5z1h.png" alt='family pic' className={css.familyPic}/>
         </div>
         <div className={css.updateSection}>
             <h1>This is the update section</h1>
