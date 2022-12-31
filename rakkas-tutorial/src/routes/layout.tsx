@@ -14,7 +14,7 @@ const MainLayout: Layout = ({ children }) => (
     <header className={css.header}>
       {/* <Link /> is like <a /> but it provides client-side navigation without full page reload. */}
       <Link className={css.logo} href="/">
-        Rakkas Demo App
+       Andrew's New Years 2023
       </Link>
 
       <nav className={css.nav}>

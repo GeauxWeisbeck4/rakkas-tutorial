@@ -1,18 +1,41 @@
-.mainHone {
-    font-size: 2.5rem;
-    color: darkviolet;
-    margin-top: 2rem;
-
+.mainStyle {
+    background-color: #ffffff;
+    padding: 0 10rem;
+    text-align: center;
+    max-width: 70em;
+    border: #041150 solid 10px;
+    border-radius: 10px;
 }
 
-.main-list {
+.heroSection {
+    border-bottom: #041150 solid 10px;
+}
+
+.heroSection p {
+    padding-bottom: 5rem;
+}
+
+.mainHone {
+    font-size: 2.5rem;
+    color: #9608e2;
+    padding-top: 3rem;
+}
+
+.mainList {
     margin-top: 3rem;
+    border-bottom: #041150 solid 10px;
+}
+
+.mainList p {
+    padding-bottom: 5rem;
 }
 
 .newHtwo {
     font-size: 1.5rem;
     color: #041150;
     font-weight: bold;
+    padding-top: 4rem;
+
 }
 
 .updateSection {
@@ -21,7 +44,6 @@
     padding: 3rem;
     margin-top: 4rem;
     margin-bottom: 10rem;
-    text-align: center;
 }
 
 .updatePic {

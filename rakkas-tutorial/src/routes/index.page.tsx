@@ -4,11 +4,13 @@ import css from "./index.module.css";
 
 const HomePage: Page = function HomePage() {
   return (
-    <main>
-        <h1 className={css.mainHone}>Andrew's Happy New Years Page!</h1>
-        <p>Join me for a fun filled evening of coding and RakkasJS! I will also be working on other projects as well, but my main goal tonight is to
-        get to my goal of 1,000 commits for 2022. I currently have <strong>29 to go!</strong> If you would like to learn more, just follow me on my
-        <a href="https://github.com/geauxweisbeck4" target="_blank">GitHub account</a>.</p>
+    <main className={css.mainStyle}>
+        <div className={css.heroSection}>
+           <h1 className={css.mainHone}>Andrew's Happy New Years Page!</h1>
+           <p>Join me for a fun filled evening of coding and celebrating the new year! I will also be working on other projects, but my main goal is to
+           get to my goal of 1,000 commits for 2022. I currently have <strong>27 to go!</strong> If you woul dlike to learn more, just follow me on my <a href="https://github.com/geauxweisbeck4">GitHub account</a>. Happy New year!</p>
+        </div>
+
         <div className={css.mainList}>
             <h2 className={css.newHtwo}>Here are some of the things that I'll be doing tonight:</h2>
                 <ul>

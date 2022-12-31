@@ -9,10 +9,11 @@
 
 body {
   margin: 0;
+  background-color: rgba(182, 239, 253, 0.85);
 }
 
 a {
-  color: #924;
+  color: #e20808;
   text-decoration: none;
 }
 
@@ -27,7 +28,7 @@ a:hover {
 }
 
 main {
-  max-width: 60em;
+  max-width: 100em;
   margin: auto;
   line-height: 1.6;
 }
