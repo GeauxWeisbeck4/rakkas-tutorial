@@ -1,0 +1,24 @@
+.mainHone {
+    font-size: 2.5rem;
+    color: darkviolet;
+    margin-top: 2rem;
+
+}
+
+.main-list {
+    margin-top: 3rem;
+}
+
+.newHtwo {
+    font-size: 1.5rem;
+    color: #041150;
+    font-weight: bold;
+}
+
+.updateSection {
+    background-color: #041150;
+    color: white;
+    padding: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
