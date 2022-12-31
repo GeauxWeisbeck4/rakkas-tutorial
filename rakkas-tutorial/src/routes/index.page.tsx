@@ -26,6 +26,8 @@ const HomePage: Page = function HomePage() {
             me and stay up to date with my New Years adventures, whatever I am working on!</p>
             <h3>I am currently working on:</h3>
             <p>RakkasJS Tutorial!</p>
+            <img src="https://res.cloudinary.com/dvsjspnnz/image/upload/v1664969406/cld-sample-2.jpg" alt="beautiful mountains" className={css.updatePic} />
+            <p>Ahh, this is where I'd rather be.</p>
         </div>
     </main>
   );
