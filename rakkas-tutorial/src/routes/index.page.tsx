@@ -12,13 +12,16 @@ const HomePage: Page = function HomePage() {
         </div>
 
         <div className={css.mainList}>
-            <h2 className={css.newHtwo}>Here are some of the things that I'll be doing tonight:</h2>
+            <div className={css.mainCard}>
+                <h2 className={css.newHtwo}>Here are some of the things that I'll be doing tonight:</h2>
                 <ul>
                     <li>Creating a RakkasJS Tutorial Page</li>
                     <li>Gambling at the Fish Tables</li>
                     <li>Kissing Lisa for the New Years</li>
                     <li>Take a shower</li>
                 </ul>
+            </div>
+
             <p>Why couldn't I just put all those on the ToDo list? Well because I need to make content and figure out how this whole framework works - you feel me?
             I can't just try to think of stuff to put here or I'll never reach 1,000 commits.</p>
         </div>

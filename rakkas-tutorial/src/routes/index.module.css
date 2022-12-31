@@ -2,9 +2,10 @@
     background-color: #ffffff;
     padding: 0 10rem;
     text-align: center;
-    max-width: 70em;
+    max-width: 60em;
     border: #041150 solid 10px;
     border-radius: 10px;
+    margin-top: 2em;
 }
 
 .heroSection {
@@ -19,6 +20,14 @@
     font-size: 2.5rem;
     color: #9608e2;
     padding-top: 3rem;
+    align-items: center;
+}
+
+.mainCard {
+    border: #041150 solid 5px;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 40rem;
 }
 
 .mainList {
@@ -34,8 +43,7 @@
     font-size: 1.5rem;
     color: #041150;
     font-weight: bold;
-    padding-top: 4rem;
-
+    padding-top: 0.5rem;
 }
 
 .updateSection {

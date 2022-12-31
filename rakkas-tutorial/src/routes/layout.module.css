@@ -9,7 +9,7 @@
 
 body {
   margin: 0;
-  background-color: rgba(182, 239, 253, 0.85);
+  background-color: rgba(6, 207, 255, 0.85);
 }
 
 a {
@@ -38,9 +38,9 @@ main {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
-  padding-right: 1em;
-  padding-bottom: 1em;
+  padding: 2em;
   border-bottom: solid 1px #ddd;
+  background-color: #02498e;
 }
 
 @media (min-width: 600px) {
@@ -51,11 +51,11 @@ main {
 
 .header > * {
   margin-left: 1em;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 .logo {
-  font-size: 150%;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -67,14 +67,18 @@ main {
 .nav li {
   display: inline-block;
   list-style-type: none;
+  margin-right: 3em;
 }
 
 .nav li:not(:last-child) {
   margin-right: 1em;
+
 }
 
 .header a {
   text-decoration: none;
+  margin-right: 1em;
+  font-size: 1.25em;
 }
 
 .activeLink {
