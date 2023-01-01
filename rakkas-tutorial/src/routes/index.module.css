@@ -51,7 +51,15 @@
 }
 
 .familyPic {
-    width: 75%;
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 5px 12px;
+}
+
+.uncPic {
+    width: 95%;
     height: auto;
     border-radius: 10px;
     margin-bottom: 2rem;
